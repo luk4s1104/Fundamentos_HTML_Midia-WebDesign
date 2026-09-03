@@ -1,4 +1,4 @@
-#  Tarefa 04 - Mídias, Estruturas e Versionamento (WebDesign - FACENS)
+# Mídias, Estruturas e Versionamento (WebDesign - FACENS)
 
 Este projeto foi feito para a aula de WebDesign na FACENS. O objetivo principal foi aprender a colocar mídias (imagens, vídeos e áudios) rodando direto no HTML, organizar a página usando tabelas e contêineres (`<div>`), e entender de vez como usar IDs e Classes no CSS para estilizar tudo.
 
