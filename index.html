@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula04 - Mídias HTML</title>
+    <style>
+        /* Selecionando pelo ID (usa o caractere #) */
+        #introducao {
+            font-size: 1.2rem; 
+            color: #e40000;
+            font-weight: bold;
+        }
+        /* Selecionando pela Classe (usa o caractere .) */
+        .destaque {
+            background-color: #ffae6f;
+        }
+        .divconteiner{
+            font-style: oblique;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <td>AULA 04 - Mídias em HTML</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <div id="Imagens">
+                    <img src="imagem1.png" alt="texto descritivo" width="150" height="100"/><br>
+                    <img src="imagem2.png" alt="texto descritivo" width="150"  height="100"><br>
+                    <img src="imagem3.png" alt="texto opcional">
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <div id="Imagens">
+        <img src="imagem1.png" alt="texto descritivo" width="150" height="100"/><br>
+        <img src="imagem2.png" alt="texto descritivo" width="150"  height="100"><br>
+        <img src="imagem3.png" alt="texto opcional">
+    </div>
+    <div id="Videos">
+       <video src="video1.mp4" poster="imagem-de-capa.jpg"  width="500" controls></video>
+        <video src="video1.mp4" poster="imagem-de-capa.jpg"  width="500"></video>
+    </div>
+    <div id="Audios">
+    <audio src="audio.mp3" controls></audio>
+    <audio src="audio.ogg" controls></audio>
+    </div>
+    <div id="Formulario">
+    <form action="#">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome"><br><br>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="mensagem">Mensagem:</label>
+        <textarea name="mensagem" id="mensagem"></textarea>
+        <input type="submit" value="Enviar">
+    </form>
+    </div>
+    <div id="links">
+        <a href="https://www.google.com/?hl=pt_br">Google</a>
+        <br>
+        <a href="https://www.corinthians.com.br/"><img src="imagem4.png" width="150" height="100"></a>
+        <br>
+        <a href="https://facens.instructure.com/" target="_blank">FACENS</a>
+    </div>
+    <div id="listas">
+        <ul>
+            <li>Passo A</li>
+            <li>Passo B</li>
+            <li>Passo C</li>
+        </ul>
+        <ol>
+            <li>Passo 1</li>
+            <li>Passo 2</li>
+            <li>Passo 3</li>
+        </ol>
+    </div>
+    <div id="tabelas">
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>Coluna 1</td>
+                    <td>Coluna 2</td>
+                    <td>Coluna 3</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Linha 1</td>
+                    <td>Dado 1</td>
+                    <td>Dado 2</td>
+                </tr>
+                <tr>
+                    <td>Linha 2</td>
+                    <td>Dado 3</td>
+                    <td>Dado 4</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div id="IDs e Classes">
+        <p id="introducao">Paragrafo com <strong>id</strong></p>
+        <p class="destaque"> Primeiro paragrafo com a <strong>class destaque</strong></p>
+        <p class="destaque"> Segundo paragrafo com a <strong>class destaque</strong></p>
+    </div>
+    <div class="divconteiner">
+        <h3>Subtitulo h3</h3>
+        <p>A tag div nao tem efeito visual, apenas facilita a organizacao e agrupa elementos.</p>
+        <p>Ao aplicar uma class nesse div, usando o CSS e possivel estilizar essa caixa inteira</p>
+    </div>
+</body>
+</html>
