@@ -14,8 +14,7 @@ Este projeto foi feito para a aula de WebDesign na FACENS. O objetivo principal 
 
 ---
 
-**Link do Projeto:** [Projeto Finalizado](https://tarefa04-web-design.vercel.app/)
-
+**Link do Projeto:** [📎 Resultado Prático](https://tarefa04-web-design.vercel.app/)
 ---
 
 ## 📂 Organização das Pastas:
