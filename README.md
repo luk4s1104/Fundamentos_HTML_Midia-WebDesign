@@ -14,6 +14,10 @@ Este projeto foi feito para a aula de WebDesign na FACENS. O objetivo principal 
 
 ---
 
+**Link do Projeto:** [Projeto Finalizado](https://tarefa04-web-design.vercel.app/)
+
+---
+
 ## 📂 Organização das Pastas:
 Tarefa04-WebDesign/
 ├── Audio/          📁 Arquivos de áudio (.mp3, .ogg)
@@ -22,4 +26,3 @@ Tarefa04-WebDesign/
 ├── index.html      📄 Código-fonte principal
 └── README.md       📄 Esta documentação
 ```
-Link do Projeto:[Projeto Finalizado](https://tarefa04-web-design.vercel.app/)
