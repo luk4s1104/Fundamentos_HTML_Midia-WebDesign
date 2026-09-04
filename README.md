@@ -25,4 +25,3 @@ Tarefa04-WebDesign/
 ├── Video/          📁 Vídeos em .mp4
 ├── index.html      📄 Código-fonte principal
 └── README.md       📄 Esta documentação
-```
